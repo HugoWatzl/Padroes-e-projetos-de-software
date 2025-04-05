@@ -3,28 +3,28 @@
 ##  Tipos de Software
 
 ### 1. 🖥️ Software de Sistema
-- Exemplos**: Sistemas operacionais, drivers
-- Características**: Estabilidade, segurança, desempenho
+- **Exemplos**: Sistemas operacionais, drivers
+- **Características**: Estabilidade, segurança, desempenho
 
 ### 2. 📱 Software de Aplicação
-- Exemplos**: ERPs, CRMs, jogos, redes sociais
-- Características**: UX/UI, funcionalidades específicas, escalabilidade
+- **Exemplos**: ERPs, CRMs, jogos, redes sociais
+- **Características**: UX/UI, funcionalidades específicas, escalabilidade
 
 ### 3. 🔌 Software Embarcado
-- Exemplos**: Dispositivos IoT, smart TVs, sistemas automotivos
--  Características**: Tempo real, baixo consumo de recursos, integração com hardware
+- **Exemplos**: Dispositivos IoT, smart TVs, sistemas automotivos
+-  **Características**: Tempo real, baixo consumo de recursos, integração com hardware
 
 ### 4. ⚠️ Software Crítico
--  Exemplos**: Sistemas médicos, aeroespaciais, financeiros
--  Características**: Confiabilidade, alta disponibilidade, certificações
+-  **Exemplos**: Sistemas médicos, aeroespaciais, financeiros
+-  **Características**: Confiabilidade, alta disponibilidade, certificações
 
 ## 🛠️ Manutenção e Evolução de Software
 
 ###  Tipos de Manutenção:
-1.  Corretiva**: Correção de bugs e falhas
-2.  Evolutiva**: Adição de novas funcionalidades
-3.  Adaptativa**: Ajustes para novos ambientes/tecnologias
-4.  Preventiva**: Melhorias na arquitetura para evitar problemas futuros
+1.  **Corretiva**: Correção de bugs e falhas
+2. **Evolutiva**: Adição de novas funcionalidades
+3.  **Adaptativa**: Ajustes para novos ambientes/tecnologias
+4.  **Preventiva**: Melhorias na arquitetura para evitar problemas futuros
 
 ### ⚠️ Principais Desafios:
 -  Dívida técnica (acúmulo de soluções temporárias)
