@@ -8,7 +8,7 @@
  Em resumo, software é a parte lógica e intangível que permite que o hardware execute tarefas, enquanto o hardware e outros elementos mencionados são componentes físicos ou processos que não se enquadram na definição de software.
 
 ## A Engenharia de Software é baseada em elementos que focam na qualidade do produto. Esses elementos são: 
-Ferramentas, métodos e processos.
+**Ferramentas, métodos e processos**.
 
 ## Os modelos de ciclo de vida podem ser:
 
