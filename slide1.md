@@ -3,7 +3,7 @@
 
  Software é um produto digital não físico que integra documentação, estratégias, trabalho em equipe e código, visando solucionar ou aprimorar um projeto ou tema, enquanto segue princípios de engenharia para garantir qualidade e eficiência.
 
-## O que é um sofware e oq não e um sofware?
+## O que é um sofware e o que não é um sofware?
 
  Em resumo, software é a parte lógica e intangível que permite que o hardware execute tarefas, enquanto o hardware e outros elementos mencionados são componentes físicos ou processos que não se enquadram na definição de software.
 
