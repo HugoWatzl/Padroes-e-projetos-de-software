@@ -31,18 +31,6 @@
 -  Código legado (sistemas antigos em operação)
 -  Controle de versões e documentação adequada
 
-## Gerência de Configuração
-
-### ❗ Importância:
--  Controle de versões para evitar perda de código
--  Rastreabilidade de mudanças
--  Garantia de consistência entre ambientes
-
-###  Ferramentas e Práticas:
--  Sistemas de controle de versão (Git, SVN)
--  Pipelines de CI/CD (Integração Contínua/Entrega Contínua)
--  Ambientes separados (desenvolvimento, teste, produção)
-
 ##  Exemplos de Produtos de Software
 -  **Sistemas Operacionais**: Windows, Linux, macOS
 -  **Produtividade**: Microsoft Office, Google Workspace
@@ -81,7 +69,9 @@
 | **Escalabilidade**    | Automática (cloud)                   | Limitada ao hardware do usuário      |
 | **Manutenção**        | Inclusa no serviço                   | Responsabilidade do usuário          |
 
-#
+# Link kahoot
+
+<p> https://create.kahoot.it/share/aula-3-produto-de-software/166a15a9-738c-4399-a569-b5295a3a0e6d</p>
 
 ## 📌 Tendencias de Mercado (2023)
 - **Setores dominantes SaaS:**  
