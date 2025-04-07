@@ -209,21 +209,6 @@ Foco na **necessidade e valor para o usuário**, usado em métodos ágeis como S
 4. Se o usuário estiver sem conexão, uma mensagem de erro deve ser exibida impedindo o acesso.
 
 
-## ✅ Relação «include»
 
-### 📌 Definição:
-Indica que um **caso de uso SEMPRE inclui o comportamento de outro**.  
-Ou seja, o caso de uso principal **depende** do outro para funcionar.
-
-### 💡 Quando usar:
-Use «include» quando **vários casos de uso compartilham a mesma funcionalidade**.  
-Ajuda a **evitar repetição** e a manter o sistema modular.
-
-### 📍 Exemplo:
-Em um sistema bancário:
-- "Sacar Dinheiro" inclui "Autenticar Cliente"
-- "Depositar Dinheiro" também inclui "Autenticar Cliente"
-
-🔁 *Ou seja: a autenticação é necessária em ambos, e por isso é incluída.*
 
 
