@@ -118,4 +118,6 @@
 | RAD                  | Média        | Rápida     | Médio         | Sistemas modulares              |
 
 
+## Kahoot para estudar 
 
+https://create.kahoot.it/share/ciclo-de-vida-do-software/cdf207d5-d07d-4592-ba5a-7828a756d7f1
