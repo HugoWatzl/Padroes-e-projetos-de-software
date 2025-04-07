@@ -129,4 +129,4 @@ Referem-se a **atributos do sistema**.
 2.  O sistema deve realizar logout automático da conta do usuário após 48 horas de inatividade, visando segurança em ambiente na nuvem ;
 3. O processo de compra deve ser intuitivo e ter tempo médio de resposta inferior a 2 segundos por etapa em 95% das interações dos usuários ;
 4. O sistema deve apresentar tempo de resposta ≤ 2 segundos para 95% das buscas realizadas pelos usuários ;
-5. O sistema de carregar os pprosutos em um tempo resposta ≤ 2 segundos.
+5. O sistema de carregar os produtos em um tempo resposta ≤ 1.5 segundospara 95% das buscas realizadas pelos usuários .
