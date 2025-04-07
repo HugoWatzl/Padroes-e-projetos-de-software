@@ -34,6 +34,81 @@ Usado para **explicar passo a passo** como o sistema e o usuário interagem.
 
 ✅ **Bom para:** Projetos mais complexos ou documentações detalhadas.
 
+<br>
+
+## ✅ Relação «include»
+
+### 📌 Definição:
+Indica que um **caso de uso SEMPRE inclui o comportamento de outro**.  
+Ou seja, o caso de uso principal **depende** do outro para funcionar.
+
+### 💡 Quando usar:
+Use «include» quando **vários casos de uso compartilham a mesma funcionalidade**.  
+Ajuda a **evitar repetição** e a manter o sistema modular.
+
+### 📍 Exemplo:
+Em um sistema bancário:
+- "Sacar Dinheiro" inclui "Autenticar Cliente"
+- "Depositar Dinheiro" também inclui "Autenticar Cliente"
+
+🔁 *Ou seja: a autenticação é necessária em ambos, e por isso é incluída.*
+
+---
+
+## ✅ Relação «extend»
+
+### 📌 Definição:
+Indica que um caso de uso pode **adicionar comportamento OPCIONAL a outro**, **sob certas condições**.
+
+### 💡 Quando usar:
+Use «extend» para funcionalidades **que só ocorrem às vezes**, dependendo de uma escolha ou situação.
+
+### 📍 Exemplo:
+Em um sistema bancário:
+- "Visualizar Saldo" pode ser estendido por "Imprimir Extrato"
+  - Apenas se o cliente quiser imprimir
+
+📎 *Ou seja: "Imprimir Extrato" é um extra que não é sempre executado.*
+
+---
+
+## 📺 Vídeo recomendado:
+**Título:** Include e Extend em Diagramas de Casos de Uso  
+🎥 [Video explicando](https://www.youtube.com/watch?v=LGkzco2pfyc)
+
+---
+
+## Diagrama de Casos de Uso de um sistema de Loja Online (E-commerce)
+
+```pgsql
+ 
+                    <<include>>             <<include>>
+[Cliente] ─────> (Finalizar Compra) ─────> (Confirmar Endereço)
+                                │
+                                └─────> (Selecionar Forma de Pagamento)
+                                │
+                  <<extend>>   │        <<extend>>
+                      └──────> (Aplicar Cupom de Desconto)
+                      └──────> (Escolher Presente)
+
+[Cliente] ──> (Visualizar Produtos)
+      │         │
+      │         └──> (Adicionar ao Carrinho) ───> (Visualizar Carrinho)
+      │
+      └──> (Cadastrar-se)
+      └──> (Fazer Login)
+      └──> (Receber Confirmação de Pedido)
+
+[Administrador] ──> (Login como Administrador)
+        │
+        ├──> (Cadastrar Produto)
+        ├──> (Editar Produto)
+        ├──> (Remover Produto)
+        ├──> (Visualizar Pedidos)
+        └──> (Atualizar Status do Pedido)
+
+```
+<br>
 ---
 
 ## 📌 HISTÓRIA DE USUÁRIO (User Story)
@@ -79,8 +154,6 @@ Foco na **necessidade e valor para o usuário**, usado em métodos ágeis como S
 | **História de Usuário** | Anotação no post-it de um desejo          |
 
 ---
-<br>
-
 # Exercícios:
 
 ## 📝 Exercício – Caso de Uso
@@ -134,5 +207,23 @@ Foco na **necessidade e valor para o usuário**, usado em métodos ágeis como S
 2. O conteúdo deve começar a ser exibido em até 5 segundos após clicar em "Assistir".
 3. Caso o pagamento esteja pendente, o sistema deve bloquear o acesso e mostrar uma mensagem com opção de regularizar.
 4. Se o usuário estiver sem conexão, uma mensagem de erro deve ser exibida impedindo o acesso.
+
+
+## ✅ Relação «include»
+
+### 📌 Definição:
+Indica que um **caso de uso SEMPRE inclui o comportamento de outro**.  
+Ou seja, o caso de uso principal **depende** do outro para funcionar.
+
+### 💡 Quando usar:
+Use «include» quando **vários casos de uso compartilham a mesma funcionalidade**.  
+Ajuda a **evitar repetição** e a manter o sistema modular.
+
+### 📍 Exemplo:
+Em um sistema bancário:
+- "Sacar Dinheiro" inclui "Autenticar Cliente"
+- "Depositar Dinheiro" também inclui "Autenticar Cliente"
+
+🔁 *Ou seja: a autenticação é necessária em ambos, e por isso é incluída.*
 
 
