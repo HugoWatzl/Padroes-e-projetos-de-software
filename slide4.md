@@ -50,7 +50,8 @@
     E[Arquitetura-Cêntrico] --> F[Estabilidade técnica]
     G[Gestão de Riscos] --> H[Previsibilidade]
     
-    
+## Kahoot estudo
+<P> https://create.kahoot.it/share/aula-3-processo-unificado-rup/04f76d12-5c5c-4848-9d98-36e6ac6313f4</P>
 
 ## 🤔 Quando usar?
 
